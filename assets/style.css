@@ -103,6 +103,9 @@ body{
     
 }
 .pure{
+    display: none;
+}
+.pure{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 240px;
@@ -129,7 +132,7 @@ body{
     margin-bottom: 30px;
 }
 #note div{
-    width: 50px;
+    width: 40px;
     height: 2px;
     border: none;
     border-top: 1px solid var(--whitecolor);
@@ -311,7 +314,11 @@ footer{
     width: 100%;
     margin-top: 150px;
     padding-top: 50px;
-    background-color: rgb(255, 255, 255, 0.06);
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-background-color: rgba(255, 255, 255, 0.06);
+    -moz-background-color: rgba(255, 255, 255, 0.06);
+    -ms-background-color: rgba(255, 255, 255, 0.06);
+    -o-background-color: rgba(255, 255, 255, 0.06);
 }
 
 footer .footer-wrapper{
@@ -326,14 +333,22 @@ footer div{
     margin-bottom: 20px;
 }
 footer div > p{
-    color: rgb(235, 233, 233, 0.2);
     font-size: 14px;
+    color: rgba(235, 233, 233, 0.2);
+    -webkit-color: rgba(235, 233, 233, 0.2);
+    -moz-color: rgba(235, 233, 233, 0.2);
+    -ms-color: rgba(235, 233, 233, 0.2);
+    -o-color: rgba(235, 233, 233, 0.2);
 }
 
 footer .input{
     width: 300px;
     height: 45px;
     background-color: rgb(255, 255, 255, 0.06);
+    -webkit-background-color: rgb(255, 255, 255, 0.06);
+    -moz-background-color: rgb(255, 255, 255, 0.06);
+    -ms-background-color: rgb(255, 255, 255, 0.06);
+    -o-background-color: rgb(255, 255, 255, 0.06);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -385,6 +400,11 @@ footer .input button:hover{
     #nav ul{
         display: flex;
         margin: 0 10%;
+    }
+}
+@media screen and (min-width: 1210px){
+    .pure{
+        display: block;
     }
 }
 @media screen and (max-width: 1110px){
