@@ -543,4 +543,7 @@ footer .input button:hover{
     .sSection h1{
         text-align: center;
     }
+    #thirdSection .firstDiv{
+        margin: auto;
+    }
 }
